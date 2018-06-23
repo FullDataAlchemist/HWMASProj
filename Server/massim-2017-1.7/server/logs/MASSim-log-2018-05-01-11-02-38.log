@@ -1,0 +1,213 @@
+[ NORMAL  ]  ##   Please press ENTER to start the tournament.
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentB3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentB4 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentB1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentB2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA6 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA4 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentB5 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA5 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentB6 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   Configuring random seed: 17
+[ NORMAL  ]  ##   Configuring facilities quadSize: 0.04
+[ NORMAL  ]  ##   Configuring facilities blackoutProbability: 0.1
+[ NORMAL  ]  ##   Configuring facilities blackoutTimeMin: 5
+[ NORMAL  ]  ##   Configuring facilities blackoutTimeMax: 10
+[ NORMAL  ]  ##   Configuring facilities charging station density: 0.9
+[ NORMAL  ]  ##   Configuring facilities charging station rateMin: 50
+[ NORMAL  ]  ##   Configuring facilities charging station rateMax: 150
+[ NORMAL  ]  ##   Configuring facilities shop density: 0.8
+[ NORMAL  ]  ##   Configuring facilities shop minProd: 3
+[ NORMAL  ]  ##   Configuring facilities shop maxProd: 10
+[ NORMAL  ]  ##   Configuring facilities shop amountMin: 5
+[ NORMAL  ]  ##   Configuring facilities shop amountMax: 20
+[ NORMAL  ]  ##   Configuring facilities shop priceAddMin: 100
+[ NORMAL  ]  ##   Configuring facilities shop priceAddMax: 150
+[ NORMAL  ]  ##   Configuring facilities shop restockMin: 1
+[ NORMAL  ]  ##   Configuring facilities shop restockMax: 5
+[ NORMAL  ]  ##   Configuring facilities dump density: 0.6
+[ NORMAL  ]  ##   Configuring facilities workshops density: 0.6
+[ NORMAL  ]  ##   Configuring facilities storage density: 0.8
+[ NORMAL  ]  ##   Configuring facilities storage capacityMin: 7500
+[ NORMAL  ]  ##   Configuring facilities storage capacityMax: 15000
+[ NORMAL  ]  ##   Configuring facilities resource node density: 0.7
+[ NORMAL  ]  ##   Configuring facilities resource node gatherFrequencyMin: 4
+[ NORMAL  ]  ##   Configuring facilities resource node gatherFrequencyMax: 8
+[ NORMAL  ]  ##   Configuring items baseItemsMin: 5
+[ NORMAL  ]  ##   Configuring items baseItemsMax: 7
+[ NORMAL  ]  ##   Configuring items levelDecreaseMin: 1
+[ NORMAL  ]  ##   Configuring items levelDecreaseMax: 2
+[ NORMAL  ]  ##   Configuring items graphDepthMin: 0
+[ NORMAL  ]  ##   Configuring items graphDepthMax: 1
+[ NORMAL  ]  ##   Configuring items resourcesMin: 2
+[ NORMAL  ]  ##   Configuring items resourcesMax: 4
+[ NORMAL  ]  ##   Configuring items minVol: 10
+[ NORMAL  ]  ##   Configuring items maxVol: 50
+[ NORMAL  ]  ##   Configuring items valueMin: 10
+[ NORMAL  ]  ##   Configuring items valueMax: 100
+[ NORMAL  ]  ##   Configuring items minReq: 0
+[ NORMAL  ]  ##   Configuring items maxReq: 0
+[ NORMAL  ]  ##   Configuring items reqAmountMin: 1
+[ NORMAL  ]  ##   Configuring items reqAmountMax: 3
+[ NORMAL  ]  ##   Configuring items toolsMin: 0
+[ NORMAL  ]  ##   Configuring items toolsMax: 10
+[ NORMAL  ]  ##   Configuring items toolProbability: 0.0
+[ NORMAL  ]  ##   Configuring jobs rate: 0.3
+[ NORMAL  ]  ##   Configuring jobs auctionProbability: 0.0
+[ NORMAL  ]  ##   Configuring jobs missionProbability: 0.5
+[ NORMAL  ]  ##   Configuring jobs productTypesMin: 3
+[ NORMAL  ]  ##   Configuring jobs productTypesMax: 5
+[ NORMAL  ]  ##   Configuring jobs difficultyMin: 0
+[ NORMAL  ]  ##   Configuring jobs difficultyMax: 0
+[ NORMAL  ]  ##   Configuring jobs timeMin: 100
+[ NORMAL  ]  ##   Configuring jobs timeMax: 400
+[ NORMAL  ]  ##   Configuring jobs rewardAddMin: 50
+[ NORMAL  ]  ##   Configuring jobs rewardAddMax: 100
+[ NORMAL  ]  ##   Configuring jobs auctionTimeMin: 2
+[ NORMAL  ]  ##   Configuring jobs auctionTimeMax: 10
+[ NORMAL  ]  ##   Configuring jobs fineSub: 50
+[ NORMAL  ]  ##   Configuring jobs fineAdd: 50
+[ NORMAL  ]  ##   Configuring jobs maxRewardAdd: 50
+[ NORMAL  ]  ##   Configuring jobs missionDifficultyMax: 0
+[ NORMAL  ]  ##   Configuring simulation id: 2017-SampleSimulation
+[ NORMAL  ]  ##   Configuring scenario map: paris
+[ NORMAL  ]  ##   Configuring scenario seedCapital: 50000
+[ NORMAL  ]  ##   Configuring scenario minLon: 2.26
+[ NORMAL  ]  ##   Configuring scenario maxLon: 2.41
+[ NORMAL  ]  ##   Configuring scenario minLat: 48.82
+[ NORMAL  ]  ##   Configuring scenario maxLat: 48.9
+[ NORMAL  ]  ##   Configuring scenario proximity: 5
+[ NORMAL  ]  ##   Configuring scenario cellSize: 200
+[ NORMAL  ]  ##   Configuring scenario centerLat: 48.8424
+[ NORMAL  ]  ##   Configuring scenario centerLon: 2.3209
+[ NORMAL  ]  ##   Configuring post_job limit: 10
+[ NORMAL  ]  ##   Configuring random fail probability: 1
+[ NORMAL  ]  ##   Configuring visibility range: 500
+[ NORMAL  ]  ##   Configuring cost for goto: 10
+[ NORMAL  ]  ##   Configuring recharge rate: 5
+[ NORMAL  ]  ##   Configuring restock: 1.0
+[ NORMAL  ]  ##   Configuring restockResource: 1.0
+[ NORMAL  ]  ##   Adding tool: tool0: volume=35 value=63 roles=[car, truck]
+[ NORMAL  ]  ##   Adding tool: tool1: volume=28 value=68 roles=[motorcycle]
+[ NORMAL  ]  ##   Adding tool: tool2: volume=33 value=41 roles=[truck]
+[ NORMAL  ]  ##   Adding tool: tool3: volume=37 value=97 roles=[truck]
+[ NORMAL  ]  ##   Adding tool: tool4: volume=47 value=32 roles=[drone]
+[ NORMAL  ]  ##   Adding tool: tool5: volume=34 value=96 roles=[motorcycle]
+[ NORMAL  ]  ##   Adding tool: tool6: volume=38 value=94 roles=[truck, drone]
+[ NORMAL  ]  ##   Adding tool: tool7: volume=48 value=38 roles=[car, drone]
+[ NORMAL  ]  ##   Generated item graph level 0
+[ NORMAL  ]  ##   Generated item: Item item0: 	vol(21)	AV(0)	val(61)	reqBaseIt([(1, item0)])
+[ NORMAL  ]  ##   Generated item: Item item1: 	vol(43)	AV(0)	val(70)	reqBaseIt([(1, item1)])
+[ NORMAL  ]  ##   Generated item: Item item2: 	vol(44)	AV(0)	val(60)	reqBaseIt([(1, item2)])
+[ NORMAL  ]  ##   Generated item: Item item3: 	vol(36)	AV(0)	val(89)	reqBaseIt([(1, item3)])
+[ NORMAL  ]  ##   Generated item: Item item4: 	vol(41)	AV(0)	val(97)	reqBaseIt([(1, item4)])
+[ NORMAL  ]  ##   Generated item: Item item5: 	vol(42)	AV(0)	val(63)	reqBaseIt([(1, item5)])
+[ NORMAL  ]  ##   Generated item: Item item6: 	vol(15)	AV(0)	val(87)	reqBaseIt([(1, item6)])
+[ NORMAL  ]  ##   Generated item: Item item7: 	vol(30)	AV(0)	val(13)	reqBaseIt([(1, item7)])
+[ ERROR  ]  ##   GH: Connection between locations not found
+[ NORMAL  ]  ##   Added resource node: resourceNode0: item6 48.83699, 2.29245
+[ NORMAL  ]  ##   Added resource node: resourceNode1: item7 48.83277, 2.32607
+[ NORMAL  ]  ##   Added resource node: resourceNode2: item6 48.82382, 2.35683
+[ NORMAL  ]  ##   Added resource node: resourceNode3: item7 48.82498, 2.38901
+[ NORMAL  ]  ##   Added resource node: resourceNode4: item6 48.86541, 2.27914
+[ NORMAL  ]  ##   Added resource node: resourceNode5: item7 48.8918, 2.30755
+[ NORMAL  ]  ##   Added resource node: resourceNode6: item6 48.89876, 2.36382
+[ NORMAL  ]  ##   Added resource node: resourceNode7: item7 48.89504, 2.39389
+[ NORMAL  ]  ##   Added facility: chargingStation0 loc(2.33099,48.84871) rate(121)
+[ NORMAL  ]  ##   Added facility: chargingStation1 loc(2.36139,48.85856) rate(115)
+[ NORMAL  ]  ##   Added facility: chargingStation2 loc(2.28646,48.89288) rate(53)
+[ NORMAL  ]  ##   Added facility: chargingStation3 loc(2.32358,48.8716) rate(52)
+[ NORMAL  ]  ##   Added facility: chargingStation4 loc(2.40953,48.86912) rate(96)
+[ NORMAL  ]  ##   Added facility: shop0 loc(2.26488,48.84316) restock(5) 	stock([(16, tool3, 129), (18, item0, 82), (10, tool4, 34), (20, tool2, 53), (5, tool6, 109), (17, item4, 120), (15, item3, 133)])
+[ NORMAL  ]  ##   Added facility: shop1 loc(2.33363,48.82136) restock(3) 	stock([(13, item0, 82), (16, tool3, 123), (14, item5, 79), (15, item6, 109), (13, item4, 130), (15, tool7, 39), (5, tool5, 105)])
+[ NORMAL  ]  ##   Added facility: shop2 loc(2.35403,48.84057) restock(4) 	stock([(19, tool3, 140), (19, item7, 16), (11, tool6, 102), (8, tool1, 73), (11, item1, 88), (8, item3, 124)])
+[ NORMAL  ]  ##   Added facility: shop3 loc(2.27117,48.86711) restock(3) 	stock([(8, item0, 65), (5, item2, 73), (20, tool4, 33), (19, tool0, 77), (19, tool6, 140), (18, item6, 114), (14, item1, 81), (13, tool7, 42), (13, tool5, 118), (10, item3, 129)])
+[ NORMAL  ]  ##   Added facility: shop4 loc(2.34654,48.88681) restock(4) 	stock([(12, tool3, 119), (18, item5, 72), (10, tool4, 42), (18, item2, 60), (14, tool2, 46), (15, tool6, 105), (20, tool1, 88), (20, tool7, 41), (12, item3, 112)])
+[ NORMAL  ]  ##   Added facility: dump0 loc(2.37816,48.83624)
+[ NORMAL  ]  ##   Added facility: dump1 loc(2.40836,48.8418)
+[ NORMAL  ]  ##   Added facility: dump2 loc(2.26922,48.88631)
+[ NORMAL  ]  ##   Added facility: dump3 loc(2.36126,48.8913)
+[ NORMAL  ]  ##   Added facility: dump4 loc(2.38759,48.87049)
+[ NORMAL  ]  ##   Added facility: workshop0 loc(2.26986,48.82738)
+[ NORMAL  ]  ##   Added facility: workshop1 loc(2.40752,48.84704)
+[ NORMAL  ]  ##   Added facility: workshop2 loc(2.26176,48.86203)
+[ NORMAL  ]  ##   Added facility: workshop3 loc(2.33217,48.88764)
+[ NORMAL  ]  ##   Added facility: workshop4 loc(2.34876,48.87233)
+[ NORMAL  ]  ##   Added facility: workshop5 loc(2.39309,48.87739)
+[ NORMAL  ]  ##   Added facility: storage0 loc(2.2939,48.85646) capacity(9294)
+[ NORMAL  ]  ##   Added facility: storage1 loc(2.31082,48.84045) capacity(11851)
+[ NORMAL  ]  ##   Added facility: storage2 loc(2.37799,48.84991) capacity(12254)
+[ NORMAL  ]  ##   Added facility: storage3 loc(2.38942,48.83766) capacity(14028)
+[ NORMAL  ]  ##   Added facility: storage4 loc(2.3464,48.8995) capacity(13179)
+[ NORMAL  ]  ##   Added facility: resourceNode0 loc(2.29245,48.83699)
+[ NORMAL  ]  ##   Added facility: resourceNode1 loc(2.32607,48.83277)
+[ NORMAL  ]  ##   Added facility: resourceNode2 loc(2.35683,48.82382)
+[ NORMAL  ]  ##   Added facility: resourceNode3 loc(2.38901,48.82498)
+[ NORMAL  ]  ##   Added facility: resourceNode4 loc(2.27914,48.86541)
+[ NORMAL  ]  ##   Added facility: resourceNode5 loc(2.30755,48.8918)
+[ NORMAL  ]  ##   Added facility: resourceNode6 loc(2.36382,48.89876)
+[ NORMAL  ]  ##   Added facility: resourceNode7 loc(2.39389,48.89504)
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-6.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-7.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-8.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-9.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-10.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-11.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-12.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-13.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-14.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-15.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-16.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-17.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-18.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-19.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-20.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-21.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-22.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-23.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-24.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-25.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-26.
+[ ERROR  ]  ##   Too few agents configured for team A, using agent name A-unconfigured-27.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-6.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-7.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-8.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-9.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-10.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-11.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-12.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-13.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-14.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-15.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-16.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-17.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-18.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-19.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-20.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-21.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-22.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-23.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-24.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-25.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-26.
+[ ERROR  ]  ##   Too few agents configured for team B, using agent name B-unconfigured-27.
+[ NORMAL  ]  ##   Simulation at step 0
+[ NORMAL  ]  ##   Simulation at step 1
+[ NORMAL  ]  ##   New blackout in chargingStation2, duration 9 steps.
+[ NORMAL  ]  ##   Simulation at step 2
+[ NORMAL  ]  ##   New job: : 1x item5, 1x item1 4139 3 172 storage3 loc(2.38942,48.83766) capacity(14028) Job
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.

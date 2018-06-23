@@ -1,0 +1,787 @@
+[ NORMAL  ]  ##   Please press ENTER to start the tournament.
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA3 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA6 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA4 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA5 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   Configuring random seed: 17
+[ NORMAL  ]  ##   Configuring facilities quadSize: 0.04
+[ NORMAL  ]  ##   Configuring facilities blackoutProbability: 0.1
+[ NORMAL  ]  ##   Configuring facilities blackoutTimeMin: 5
+[ NORMAL  ]  ##   Configuring facilities blackoutTimeMax: 10
+[ NORMAL  ]  ##   Configuring facilities charging station density: 0.9
+[ NORMAL  ]  ##   Configuring facilities charging station rateMin: 50
+[ NORMAL  ]  ##   Configuring facilities charging station rateMax: 150
+[ NORMAL  ]  ##   Configuring facilities shop density: 0.8
+[ NORMAL  ]  ##   Configuring facilities shop minProd: 3
+[ NORMAL  ]  ##   Configuring facilities shop maxProd: 10
+[ NORMAL  ]  ##   Configuring facilities shop amountMin: 5
+[ NORMAL  ]  ##   Configuring facilities shop amountMax: 20
+[ NORMAL  ]  ##   Configuring facilities shop priceAddMin: 100
+[ NORMAL  ]  ##   Configuring facilities shop priceAddMax: 150
+[ NORMAL  ]  ##   Configuring facilities shop restockMin: 1
+[ NORMAL  ]  ##   Configuring facilities shop restockMax: 5
+[ NORMAL  ]  ##   Configuring facilities dump density: 0.6
+[ NORMAL  ]  ##   Configuring facilities workshops density: 0.6
+[ NORMAL  ]  ##   Configuring facilities storage density: 0.8
+[ NORMAL  ]  ##   Configuring facilities storage capacityMin: 7500
+[ NORMAL  ]  ##   Configuring facilities storage capacityMax: 15000
+[ NORMAL  ]  ##   Configuring facilities resource node density: 0.7
+[ NORMAL  ]  ##   Configuring facilities resource node gatherFrequencyMin: 4
+[ NORMAL  ]  ##   Configuring facilities resource node gatherFrequencyMax: 8
+[ NORMAL  ]  ##   Configuring items baseItemsMin: 5
+[ NORMAL  ]  ##   Configuring items baseItemsMax: 7
+[ NORMAL  ]  ##   Configuring items levelDecreaseMin: 1
+[ NORMAL  ]  ##   Configuring items levelDecreaseMax: 2
+[ NORMAL  ]  ##   Configuring items graphDepthMin: 3
+[ NORMAL  ]  ##   Configuring items graphDepthMax: 4
+[ NORMAL  ]  ##   Configuring items resourcesMin: 2
+[ NORMAL  ]  ##   Configuring items resourcesMax: 4
+[ NORMAL  ]  ##   Configuring items minVol: 10
+[ NORMAL  ]  ##   Configuring items maxVol: 50
+[ NORMAL  ]  ##   Configuring items valueMin: 10
+[ NORMAL  ]  ##   Configuring items valueMax: 100
+[ NORMAL  ]  ##   Configuring items minReq: 1
+[ NORMAL  ]  ##   Configuring items maxReq: 3
+[ NORMAL  ]  ##   Configuring items reqAmountMin: 1
+[ NORMAL  ]  ##   Configuring items reqAmountMax: 3
+[ NORMAL  ]  ##   Configuring items toolsMin: 3
+[ NORMAL  ]  ##   Configuring items toolsMax: 10
+[ NORMAL  ]  ##   Configuring items toolProbability: 0.9
+[ NORMAL  ]  ##   Configuring jobs rate: 0.2
+[ NORMAL  ]  ##   Configuring jobs auctionProbability: 0.4
+[ NORMAL  ]  ##   Configuring jobs missionProbability: 0.1
+[ NORMAL  ]  ##   Configuring jobs productTypesMin: 3
+[ NORMAL  ]  ##   Configuring jobs productTypesMax: 5
+[ NORMAL  ]  ##   Configuring jobs difficultyMin: 3
+[ NORMAL  ]  ##   Configuring jobs difficultyMax: 12
+[ NORMAL  ]  ##   Configuring jobs timeMin: 100
+[ NORMAL  ]  ##   Configuring jobs timeMax: 400
+[ NORMAL  ]  ##   Configuring jobs rewardAddMin: 50
+[ NORMAL  ]  ##   Configuring jobs rewardAddMax: 100
+[ NORMAL  ]  ##   Configuring jobs auctionTimeMin: 2
+[ NORMAL  ]  ##   Configuring jobs auctionTimeMax: 10
+[ NORMAL  ]  ##   Configuring jobs fineSub: 50
+[ NORMAL  ]  ##   Configuring jobs fineAdd: 50
+[ NORMAL  ]  ##   Configuring jobs maxRewardAdd: 50
+[ NORMAL  ]  ##   Configuring jobs missionDifficultyMax: 6
+[ NORMAL  ]  ##   Configuring simulation id: 2017-Mexico-City-Test
+[ NORMAL  ]  ##   Configuring scenario map: mexico-city
+[ NORMAL  ]  ##   Configuring scenario seedCapital: 50000
+[ NORMAL  ]  ##   Configuring scenario minLon: -99.2
+[ NORMAL  ]  ##   Configuring scenario maxLon: -99.0
+[ NORMAL  ]  ##   Configuring scenario minLat: 19.3
+[ NORMAL  ]  ##   Configuring scenario maxLat: 19.45
+[ NORMAL  ]  ##   Configuring scenario proximity: 5
+[ NORMAL  ]  ##   Configuring scenario cellSize: 500
+[ NORMAL  ]  ##   Configuring scenario centerLat: 19.4
+[ NORMAL  ]  ##   Configuring scenario centerLon: -99.1
+[ NORMAL  ]  ##   Configuring post_job limit: 10
+[ NORMAL  ]  ##   Configuring random fail probability: 1
+[ NORMAL  ]  ##   Configuring visibility range: 500
+[ NORMAL  ]  ##   Configuring cost for goto: 10
+[ NORMAL  ]  ##   Configuring recharge rate: 5
+[ NORMAL  ]  ##   Configuring restock: 1.0
+[ NORMAL  ]  ##   Configuring restockResource: 1.0
+[ NORMAL  ]  ##   Adding tool: tool0: volume=35 value=63 roles=[car, truck]
+[ NORMAL  ]  ##   Adding tool: tool1: volume=28 value=68 roles=[motorcycle]
+[ NORMAL  ]  ##   Adding tool: tool2: volume=33 value=41 roles=[truck]
+[ NORMAL  ]  ##   Adding tool: tool3: volume=37 value=97 roles=[truck]
+[ NORMAL  ]  ##   Adding tool: tool4: volume=47 value=32 roles=[drone]
+[ NORMAL  ]  ##   Adding tool: tool5: volume=34 value=96 roles=[motorcycle]
+[ NORMAL  ]  ##   Adding tool: tool6: volume=38 value=94 roles=[truck, drone]
+[ NORMAL  ]  ##   Adding tool: tool7: volume=48 value=38 roles=[car, drone]
+[ NORMAL  ]  ##   Generated item graph level 0
+[ NORMAL  ]  ##   Generated item: Item item0: 	vol(21)	AV(0)	val(61)	reqBaseIt([(1, item0)])
+[ NORMAL  ]  ##   Generated item: Item item1: 	vol(43)	AV(0)	val(70)	reqBaseIt([(1, item1)])
+[ NORMAL  ]  ##   Generated item: Item item2: 	vol(44)	AV(0)	val(60)	reqBaseIt([(1, item2)])
+[ NORMAL  ]  ##   Generated item: Item item3: 	vol(36)	AV(0)	val(89)	reqBaseIt([(1, item3)])
+[ NORMAL  ]  ##   Generated item: Item item4: 	vol(41)	AV(0)	val(97)	reqBaseIt([(1, item4)])
+[ NORMAL  ]  ##   Generated item: Item item5: 	vol(42)	AV(0)	val(63)	reqBaseIt([(1, item5)])
+[ NORMAL  ]  ##   Generated item: Item item6: 	vol(15)	AV(0)	val(87)	reqBaseIt([(1, item6)])
+[ NORMAL  ]  ##   Generated item: Item item7: 	vol(30)	AV(0)	val(13)	reqBaseIt([(1, item7)])
+[ NORMAL  ]  ##   Generated item graph level 1
+[ NORMAL  ]  ##   Generated item: Item item8: 	vol(94)	AV(1)	val(0)	parts([(1, item0), (1, item4), (3, item7)])	tools([tool5, tool1])	reqBaseIt([(1, item0), (1, item4), (3, item7)])
+[ NORMAL  ]  ##   Generated item: Item item9: 	vol(126)	AV(1)	val(0)	parts([(1, item6), (3, item2)])	tools([tool1])	reqBaseIt([(1, item6), (3, item2)])
+[ NORMAL  ]  ##   Generated item: Item item10: 	vol(166)	AV(1)	val(0)	parts([(3, item0), (3, item4), (1, item6)])	reqBaseIt([(3, item0), (3, item4), (1, item6)])
+[ NORMAL  ]  ##   Generated item: Item item11: 	vol(60)	AV(1)	val(0)	parts([(1, item6), (2, item7)])	tools([tool3])	reqBaseIt([(1, item6), (2, item7)])
+[ NORMAL  ]  ##   Generated item graph level 2
+[ NORMAL  ]  ##   Generated item: Item item12: 	vol(64)	AV(2)	val(0)	parts([(1, item7), (1, item11)])	tools([tool5, tool7])	reqBaseIt([(1, item6), (3, item7)])
+[ NORMAL  ]  ##   Generated item: Item item13: 	vol(270)	AV(4)	val(0)	parts([(1, item4), (3, item8), (1, item2)])	tools([tool1])	reqBaseIt([(3, item0), (4, item4), (9, item7), (1, item2)])
+[ NORMAL  ]  ##   Generated item graph level 3
+[ NORMAL  ]  ##   Generated item: Item item14: 	vol(354)	AV(6)	val(0)	parts([(1, item9), (3, item3), (1, item13)])	tools([tool4, tool2])	reqBaseIt([(3, item0), (4, item4), (1, item6), (3, item3), (9, item7), (4, item2)])
+[ ERROR  ]  ##   GH: Connection between locations not found
+[ ERROR  ]  ##   GH: Connection between locations not found
+[ NORMAL  ]  ##   Added resource node: resourceNode0: item6 19.30414, -99.18277
+[ NORMAL  ]  ##   Added resource node: resourceNode1: item7 19.30101, -99.11039
+[ NORMAL  ]  ##   Added resource node: resourceNode2: item6 19.3373, -99.043
+[ NORMAL  ]  ##   Added resource node: resourceNode3: item7 19.31827, -99.03726
+[ NORMAL  ]  ##   Added resource node: resourceNode4: item6 19.37105, -99.15861
+[ NORMAL  ]  ##   Added resource node: resourceNode5: item7 19.35643, -99.09616
+[ NORMAL  ]  ##   Added resource node: resourceNode6: item6 19.3683, -99.07077
+[ NORMAL  ]  ##   Added resource node: resourceNode7: item7 19.35167, -99.0261
+[ NORMAL  ]  ##   Added resource node: resourceNode8: item6 19.398, -99.19193
+[ NORMAL  ]  ##   Added resource node: resourceNode9: item7 19.40487, -99.13863
+[ NORMAL  ]  ##   Added resource node: resourceNode10: item6 19.39838, -99.08331
+[ NORMAL  ]  ##   Added resource node: resourceNode11: item7 19.4094, -99.07992
+[ NORMAL  ]  ##   Added resource node: resourceNode12: item6 19.43013, -99.18177
+[ NORMAL  ]  ##   Added resource node: resourceNode13: item7 19.4369, -99.13425
+[ NORMAL  ]  ##   Added resource node: resourceNode14: item6 19.43458, -99.10569
+[ NORMAL  ]  ##   Added resource node: resourceNode15: item7 19.4219, -99.05414
+[ NORMAL  ]  ##   Added facility: chargingStation0 loc(-99.18127,19.31722) rate(140)
+[ NORMAL  ]  ##   Added facility: chargingStation1 loc(-99.14639,19.30823) rate(123)
+[ NORMAL  ]  ##   Added facility: chargingStation2 loc(-99.08956,19.33813) rate(98)
+[ NORMAL  ]  ##   Added facility: chargingStation3 loc(-99.04509,19.30137) rate(91)
+[ NORMAL  ]  ##   Added facility: chargingStation4 loc(-99.03329,19.30961) rate(119)
+[ NORMAL  ]  ##   Added facility: chargingStation5 loc(-99.1865,19.35958) rate(73)
+[ NORMAL  ]  ##   Added facility: chargingStation6 loc(-99.12279,19.35604) rate(120)
+[ NORMAL  ]  ##   Added facility: chargingStation7 loc(-99.11836,19.37113) rate(54)
+[ NORMAL  ]  ##   Added facility: chargingStation8 loc(-99.05357,19.3591) rate(111)
+[ NORMAL  ]  ##   Added facility: chargingStation9 loc(-99.0163,19.35086) rate(53)
+[ NORMAL  ]  ##   Added facility: chargingStation10 loc(-99.17284,19.38384) rate(122)
+[ NORMAL  ]  ##   Added facility: chargingStation11 loc(-99.14265,19.41131) rate(130)
+[ NORMAL  ]  ##   Added facility: chargingStation12 loc(-99.07765,19.3876) rate(128)
+[ NORMAL  ]  ##   Added facility: chargingStation13 loc(-99.02568,19.38638) rate(79)
+[ NORMAL  ]  ##   Added facility: chargingStation14 loc(-99.1726,19.447) rate(51)
+[ NORMAL  ]  ##   Added facility: chargingStation15 loc(-99.11276,19.42892) rate(107)
+[ NORMAL  ]  ##   Added facility: chargingStation16 loc(-99.03119,19.4328) rate(89)
+[ NORMAL  ]  ##   Added facility: shop0 loc(-99.16989,19.33569) restock(1) 	stock([(13, item4, 101), (16, tool5, 108), (18, tool3, 126), (20, tool0, 84), (12, tool6, 101)])
+[ NORMAL  ]  ##   Added facility: shop1 loc(-99.12328,19.32016) restock(3) 	stock([(9, tool5, 107), (6, tool7, 39), (16, tool1, 72), (18, item1, 91), (10, tool0, 93), (9, tool6, 138)])
+[ NORMAL  ]  ##   Added facility: shop2 loc(-99.0697,19.32144) restock(3) 	stock([(14, item0, 90), (10, item6, 91), (19, tool5, 133)])
+[ NORMAL  ]  ##   Added facility: shop3 loc(-99.00328,19.33139) restock(1) 	stock([(20, item0, 70), (10, tool7, 42), (9, tool0, 91)])
+[ NORMAL  ]  ##   Added facility: shop4 loc(-99.19067,19.35746) restock(5) 	stock([(20, item0, 74), (17, item6, 98), (14, item7, 19), (19, item5, 63), (11, item1, 84), (7, item2, 84)])
+[ NORMAL  ]  ##   Added facility: shop5 loc(-99.07389,19.37946) restock(2) 	stock([(17, tool4, 37), (9, item4, 99), (13, item7, 17), (7, tool5, 103), (11, tool1, 89), (15, item1, 103), (11, tool6, 129)])
+[ NORMAL  ]  ##   Added facility: shop6 loc(-99.1675,19.39694) restock(5) 	stock([(18, tool4, 39), (17, item7, 16), (10, item5, 78), (15, item1, 79), (14, item2, 62)])
+[ NORMAL  ]  ##   Added facility: shop7 loc(-99.1337,19.39279) restock(5) 	stock([(17, item0, 67), (17, tool7, 47), (13, item1, 92), (11, tool0, 68), (5, item2, 87)])
+[ NORMAL  ]  ##   Added facility: shop8 loc(-99.10324,19.38367) restock(3) 	stock([(20, tool4, 39), (16, item4, 144), (8, item7, 17), (9, tool5, 133), (12, tool3, 141), (19, tool7, 53), (11, tool1, 82), (13, tool6, 132), (7, item2, 84)])
+[ NORMAL  ]  ##   Added facility: shop9 loc(-99.04156,19.39585) restock(1) 	stock([(20, tool4, 37), (18, item0, 70), (20, item4, 141), (6, item7, 16), (9, item3, 95), (17, tool5, 121), (9, tool7, 45), (8, tool6, 120)])
+[ NORMAL  ]  ##   Added facility: shop10 loc(-99.03542,19.39051) restock(4) 	stock([(11, tool4, 47), (16, item7, 14), (12, item3, 122), (16, tool2, 45), (8, tool7, 48), (7, item1, 86), (6, item5, 69), (12, item2, 81), (17, tool6, 124)])
+[ NORMAL  ]  ##   Added facility: shop11 loc(-99.19889,19.42324) restock(4) 	stock([(9, item4, 104), (14, item6, 97), (12, item3, 101), (15, tool1, 87), (8, item1, 98)])
+[ NORMAL  ]  ##   Added facility: shop12 loc(-99.14012,19.43897) restock(2) 	stock([(19, tool3, 118), (15, tool2, 56), (10, item1, 82)])
+[ NORMAL  ]  ##   Added facility: shop13 loc(-99.1147,19.44068) restock(5) 	stock([(20, tool1, 85), (6, item5, 69), (19, tool0, 69)])
+[ NORMAL  ]  ##   Added facility: shop14 loc(-99.03512,19.42382) restock(3) 	stock([(15, tool4, 36), (19, item4, 139), (20, item7, 14), (9, item3, 105), (17, item1, 99), (13, tool0, 72), (19, tool6, 97)])
+[ NORMAL  ]  ##   Added facility: dump0 loc(-99.18741,19.33927)
+[ NORMAL  ]  ##   Added facility: dump1 loc(-99.10955,19.3315)
+[ NORMAL  ]  ##   Added facility: dump2 loc(-99.05739,19.31402)
+[ NORMAL  ]  ##   Added facility: dump3 loc(-99.01868,19.31904)
+[ NORMAL  ]  ##   Added facility: dump4 loc(-99.19905,19.34984)
+[ NORMAL  ]  ##   Added facility: dump5 loc(-99.14985,19.34982)
+[ NORMAL  ]  ##   Added facility: dump6 loc(-99.09267,19.37424)
+[ NORMAL  ]  ##   Added facility: dump7 loc(-99.03392,19.36426)
+[ NORMAL  ]  ##   Added facility: dump8 loc(-99.13238,19.39958)
+[ NORMAL  ]  ##   Added facility: dump9 loc(-99.07416,19.41991)
+[ NORMAL  ]  ##   Added facility: dump10 loc(-99.02397,19.38139)
+[ NORMAL  ]  ##   Added facility: dump11 loc(-99.17356,19.42418)
+[ NORMAL  ]  ##   Added facility: dump12 loc(-99.08681,19.44191)
+[ NORMAL  ]  ##   Added facility: dump13 loc(-99.03601,19.4271)
+[ NORMAL  ]  ##   Added facility: workshop0 loc(-99.1987,19.33281)
+[ NORMAL  ]  ##   Added facility: workshop1 loc(-99.15421,19.33872)
+[ NORMAL  ]  ##   Added facility: workshop2 loc(-99.08554,19.33312)
+[ NORMAL  ]  ##   Added facility: workshop3 loc(-99.09335,19.37344)
+[ NORMAL  ]  ##   Added facility: workshop4 loc(-99.05729,19.37509)
+[ NORMAL  ]  ##   Added facility: workshop5 loc(-99.03779,19.35316)
+[ NORMAL  ]  ##   Added facility: workshop6 loc(-99.18714,19.40399)
+[ NORMAL  ]  ##   Added facility: workshop7 loc(-99.0919,19.39895)
+[ NORMAL  ]  ##   Added facility: workshop8 loc(-99.01923,19.41512)
+[ NORMAL  ]  ##   Added facility: workshop9 loc(-99.19569,19.44614)
+[ NORMAL  ]  ##   Added facility: workshop10 loc(-99.14081,19.44087)
+[ NORMAL  ]  ##   Added facility: workshop11 loc(-99.02892,19.43077)
+[ NORMAL  ]  ##   Added facility: storage0 loc(-99.19329,19.32686) capacity(9604)
+[ NORMAL  ]  ##   Added facility: storage1 loc(-99.12679,19.30076) capacity(7824)
+[ NORMAL  ]  ##   Added facility: storage2 loc(-99.09198,19.32609) capacity(12589)
+[ NORMAL  ]  ##   Added facility: storage3 loc(-99.01727,19.30459) capacity(14934)
+[ NORMAL  ]  ##   Added facility: storage4 loc(-99.17035,19.36119) capacity(8040)
+[ NORMAL  ]  ##   Added facility: storage5 loc(-99.12744,19.36626) capacity(11163)
+[ NORMAL  ]  ##   Added facility: storage6 loc(-99.11757,19.3626) capacity(13702)
+[ NORMAL  ]  ##   Added facility: storage7 loc(-99.04573,19.35245) capacity(13230)
+[ NORMAL  ]  ##   Added facility: storage8 loc(-99.18367,19.3902) capacity(12169)
+[ NORMAL  ]  ##   Added facility: storage9 loc(-99.15535,19.41272) capacity(9557)
+[ NORMAL  ]  ##   Added facility: storage10 loc(-99.10503,19.40745) capacity(11491)
+[ NORMAL  ]  ##   Added facility: storage11 loc(-99.05545,19.41385) capacity(13467)
+[ NORMAL  ]  ##   Added facility: storage12 loc(-99.03379,19.39664) capacity(9594)
+[ NORMAL  ]  ##   Added facility: storage13 loc(-99.18794,19.44019) capacity(14889)
+[ NORMAL  ]  ##   Added facility: storage14 loc(-99.10555,19.42892) capacity(8183)
+[ NORMAL  ]  ##   Added facility: storage15 loc(-99.0397,19.43708) capacity(14486)
+[ NORMAL  ]  ##   Added facility: resourceNode0 loc(-99.18277,19.30414)
+[ NORMAL  ]  ##   Added facility: resourceNode1 loc(-99.11039,19.30101)
+[ NORMAL  ]  ##   Added facility: resourceNode2 loc(-99.043,19.3373)
+[ NORMAL  ]  ##   Added facility: resourceNode3 loc(-99.03726,19.31827)
+[ NORMAL  ]  ##   Added facility: resourceNode4 loc(-99.15861,19.37105)
+[ NORMAL  ]  ##   Added facility: resourceNode5 loc(-99.09616,19.35643)
+[ NORMAL  ]  ##   Added facility: resourceNode6 loc(-99.07077,19.3683)
+[ NORMAL  ]  ##   Added facility: resourceNode7 loc(-99.0261,19.35167)
+[ NORMAL  ]  ##   Added facility: resourceNode8 loc(-99.19193,19.398)
+[ NORMAL  ]  ##   Added facility: resourceNode9 loc(-99.13863,19.40487)
+[ NORMAL  ]  ##   Added facility: resourceNode10 loc(-99.08331,19.39838)
+[ NORMAL  ]  ##   Added facility: resourceNode11 loc(-99.07992,19.4094)
+[ NORMAL  ]  ##   Added facility: resourceNode12 loc(-99.18177,19.43013)
+[ NORMAL  ]  ##   Added facility: resourceNode13 loc(-99.13425,19.4369)
+[ NORMAL  ]  ##   Added facility: resourceNode14 loc(-99.10569,19.43458)
+[ NORMAL  ]  ##   Added facility: resourceNode15 loc(-99.05414,19.4219)
+[ ERROR  ]  ##   GH: Connection between locations not found
+[ NORMAL  ]  ##   Simulation at step 0
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   Simulation at step 1
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 2
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   Simulation at step 3
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   Simulation at step 4
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   Simulation at step 5
+[ NORMAL  ]  ##   New job: : 3x item13 6543 6 205 storage5 loc(-99.12744,19.36626) capacity(11163) Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   Simulation at step 6
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   Simulation at step 7
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   Simulation at step 8
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   Simulation at step 9
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ ERROR  ]  ##   Error receiving document. Stop receiving.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   Simulation at step 10
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   Simulation at step 11
+[ NORMAL  ]  ##   New blackout in chargingStation7, duration 10 steps.
+[ NORMAL  ]  ##   New job: : 3x item9, 3x item11 2766 12 228 storage12 loc(-99.03379,19.39664) capacity(9594) Job
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   Simulation at step 12
+[ NORMAL  ]  ##   New job: : 1x item14, 1x item13 9848 13 251 storage0 loc(-99.19329,19.32686) capacity(9604) AuctionJob
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   Simulation at step 13
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   Simulation at step 14
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   Simulation at step 15
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   Simulation at step 16
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   Simulation at step 17
+[ NORMAL  ]  ##   New job: : 2x item9, 2x item14, 2x item11 14109 18 150 storage10 loc(-99.10503,19.40745) capacity(11491) AuctionJob
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 18
+[ NORMAL  ]  ##   New blackout in chargingStation2, duration 10 steps.
+[ NORMAL  ]  ##   New job: : 2x item14, 2x item11 7789 19 218 storage12 loc(-99.03379,19.39664) capacity(9594) AuctionJob
+[ NORMAL  ]  ##   No valid action available in time for agent agentA23.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA25.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA6.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA22.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA3.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA15.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA24.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA20.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA18.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA10.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA21.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA26.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA16.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA8.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA12.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA17.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA14.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA4.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA11.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA13.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA28.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA5.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA9.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA19.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA27.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA7.
+[ NORMAL  ]  ##   Simulation at step 19

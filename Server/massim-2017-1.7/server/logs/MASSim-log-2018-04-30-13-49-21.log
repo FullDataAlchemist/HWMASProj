@@ -1,0 +1,2 @@
+[ NORMAL  ]  ##   Please press ENTER to start the tournament.
+[ ERROR  ] java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException : [massim.LoginManager.handleSocket(LoginManager.java:112), massim.LoginManager.lambda$null$18(LoginManager.java:50), java.base/java.lang.Thread.run(Unknown Source)]
